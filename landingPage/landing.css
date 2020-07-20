@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+div {
+    display: block;
+}
+body {
+    background-image: url('wallpaper 1.png');
+    background-size: cover;
+}
+hr {
+width: 28vw;
+height: 0px;
+left: 645px;
+top: 473px;
+line-height: 28px;
+border: 0.0001vw solid #FFFFFF;
+}
+.container {
+ top: 20vh;
+padding-top: 0px;
+padding:  60px 20px ;
+position: relative;
+text-align: center;
+
+max-width: 100%;
+min-width: 280px;
+margin-left: auto;
+margin-right: auto;
+color: white;
+font-size: 2em;
+}
+.btn1 {
+position: absolute;
+width: 230px;
+height: 61px;
+left: 80%;
+top: 22px;
+border: 2px solid #32B0E5;
+background-color: #32B0E5;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+display: inline-block;
+border-radius: 45rem;
+}
+
+#verticalBackground {
+    position: absolute;
+    background-color: #f4e9e9;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    padding: 150px 15px;
+    width: 80px;
+    height: 55%;
+}
+.logo {
+  width: 3.5rem; 
+  
+}
+.menu {
+    width: 3.5rem;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: -200px;
+    
+}
+h3 {
+    transform: rotate(-90deg);
+    position: relative;
+    top: -3.7em;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.contact {
+ 
+position: relative;
+width: 57px;
+text-decoration: none;
+color: white;
+background-color: #7C0A0A;
+left: -0.25rem;
+height: 57px;
+margin-top: 6.54rem;
+transform: rotate(-45deg);
+
+}
+#tous {
+    
+    display: inline-block;
+    transform: rotate(45deg);
+    text-align: center;
+    margin-left: -0.68em;
+
+}
+
+
+
+
+
+
