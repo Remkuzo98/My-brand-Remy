@@ -8,7 +8,7 @@
 
 }
 :root {
-    --gradient-color: linear-gradient(right rgba(255,119,48, 0.),rgba(255,185,0, 0.))
+    --gradient-color: linear-gradient( 90deg, rgba(255,119,48, 0.05),rgba(255,185,0, 0.05))
 }
 html {
     font-size: 10px;
@@ -21,8 +21,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     color: #333;
-    background-color: #eee;
-    width: 100%;
+    background-color: whitesmoke;
+    width: 70%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -30,6 +30,28 @@ body {
     padding: 0 1.5rem;
 
 }
+.btn1 {
+
+    width: 200px;
+    height: 71px;
+    left: 85%;
+    top: 50px;
+    
+    
+    
+    font-size: 16px;
+    
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+    cursor: pointer;
+    background: #0f3959;
+    color:white;
+    border: none;
+    max-width: 150px;
+    padding:12
+    
+    }
 
 .card {
     display: flex;
@@ -116,28 +138,7 @@ body {
     background: var(--gradient-color);
 
 }
-.btn1 {
 
-width: 200px;
-height: 71px;
-left: 85%;
-top: 22px;
-
-
-
-font-size: 16px;
-
-display: inline-block;
-border-radius: 1rem;
-position: absolute;
-cursor: pointer;
-background: #0f3959;
-color:white;
-border: none;
-max-width: 150px;
-padding:12
-
-}
 
 
 
