@@ -29,6 +29,8 @@ body {
     right: 0;
     border-bottom: 1px solid rgba(255,255, 255,0.2);
     
+        box-shadow: 2px .8rem 1rem rgba(0, 0,0,.05);
+
 }
 .logo {
     display: block;
