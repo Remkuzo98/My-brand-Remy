@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    --gradient-color: linear-gradient(right rgba(255,119,48, 0.),rgba(255,185,0, 0.))
+}
+html {
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: #333;
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+
+}
+
+.card {
+    display: flex;
+    box-shadow: 2px .8rem 1rem rgba(0, 0,0,.05);
+    background-color: white;
+    flex-direction: column;
+}
+.image-data {
+    height: 30rem;
+    position : relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: url("../Assets/Images/close.jpg") center no-repeat ;
+    background-size: cover;
+    z-index: -1;
+    transition: transform 5s;
+
+}
+
+.card:hover .background-image{
+    transform: scale(1.5);
+}
+.publication-details {
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-color);
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+.publication-details i {
+    margin-right:1rem;
+}
+.author {
+    dispaly : inline-block;
+    margin-bottom: .5rem;
+    transition: all .5s;
+}
+.author:hover{
+    color: rgba(255, 255,255,.75);
+}
+.date {
+    display: block;
+}
+.post-data {
+    background-color: white;
+    padding: 2rem 3rem;
+    position: relative;
+}
+.title {
+    font-size: 3rem;
+    line-height:1;
+
+}
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: grey;
+    margin: 1rem 0 1.5rem 0;
+
+}
+.description {
+    position: relative;
+}
+.cta {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 1rem;
+
+}
+.cta a {
+    background: var(--gradient-color);
+
+}
+.btn1 {
+
+width: 200px;
+height: 71px;
+left: 85%;
+top: 22px;
+
+
+
+font-size: 16px;
+
+display: inline-block;
+border-radius: 1rem;
+position: absolute;
+cursor: pointer;
+background: #0f3959;
+color:white;
+border: none;
+max-width: 150px;
+padding:12
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
